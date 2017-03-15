@@ -1,0 +1,17 @@
+.app {
+  margin-top: 50px;
+}
+
+.menu__item a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu {
+  list-style: none;
+  background-color: blue;
+  height: 200px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
