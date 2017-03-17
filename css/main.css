@@ -2,16 +2,39 @@
   margin-top: 50px;
 }
 
+.menu__item {
+  display: block;
+  height: 25px;
+  border-bottom: 1px solid white;
+}
+
 .menu__item a {
-  text-decoration: none;
+  display: block;
   color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: arial;
+  padding-top: 6px;
+}
+
+.menu__item--aboutmenu--hidden {
+  display: none;
+}
+
+.menu__item--aboutmenu {
+  background-color: orange;
 }
 
 .menu {
-  list-style: none;
   background-color: blue;
-  height: 200px;
-  width: 100px;
+  width: 150px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/*remove indent from unordered list items*/
+.menu,.menu__item {
+  list-style: none;
+  list-style-type: inside;
+  padding: 0;
 }

@@ -1,11 +1,11 @@
 {
   "name": "accordion-jquery",
   "version": "1.0.0",
-  "description": "Recreate accordion effect using jquery",
-  "main": "./lib/index.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server ./lib/index.js"
   },
   "repository": {
     "type": "git",
