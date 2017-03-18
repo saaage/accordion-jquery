@@ -3,7 +3,7 @@
 
     <title>Accordion Menu</title>
     <link rel="stylesheet" href="./css/main.css" media="screen" charset="utf-8">
-    <script src="bundle.js" charset="utf-8"></script>
+    <script src="js/bundle.js" charset="utf-8"></script>
 
   </head>
   <body>
@@ -17,15 +17,19 @@
         <li class="menu__item" data-js="dropdown-about">
           <a href="#">ABOUT</a>
         </li>
-        <li class="menu__item menu__item--aboutmenu--hidden" data-js="about-menu">
-          <a href="#">HISTORY</a>
-        </li>
-        <li class="menu__item menu__item--aboutmenu--hidden" data-js="about-menu">
-          <a href="#">OUR TEAM</a>
-        </li>
-        <li class="menu__item menu__item--aboutmenu--hidden" data-js="about-menu">
-          <a href="#">LOCATIONS</a>
-        </li>
+        <!-- Would prefer to use another list element here -->
+        <!-- Howerver this would involve quite a bit more CSS -->
+        <div class="menu__item--aboutmenu menu__item--aboutmenu--hidden" data-js="about-menu">
+          <li class="menu__item">
+            <a href="#">HISTORY</a>
+          </li>
+          <li class="menu__item">
+            <a href="#">OUR TEAM</a>
+          </li>
+          <li class="menu__item">
+            <a href="#">LOCATIONS</a>
+          </li>
+        </div>
         <li class="menu__item">
           <a href="#">CLIENTS</a>
         </li>
@@ -33,7 +37,7 @@
           <a href="#">CONTACT US</a>
         </li>
       </ul>
-      
+
     </div>
 
   </body>
